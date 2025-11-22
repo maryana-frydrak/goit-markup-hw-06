@@ -41,6 +41,11 @@
             </li>
         </ul>
     </address>
+
+    <button class="burger-button" type="button"><svg class="burger-icon" width="24" height="24">
+      <use href="./images/icons.svg#icon-burger"></use>
+    </svg>
+    </button>
     </div>
 </header>
 <!-- #endregion header -->
@@ -48,7 +53,7 @@
 <main>
 
 <!-- #region first-section -->
-<section class="section first-section">
+<section class="section first-section hidden">
     <div class="container">
     <h1 class="main-text">Effective Solutions for Your Business</h1>
     <button type="button" class="main-button" data-modal-open>Order Service</button>
@@ -57,7 +62,7 @@
 <!-- #endregion first-section -->
 
 <!-- #region second-section -->
-<section class="section second-section">
+<section class="section second-section hidden">
     <div class="container">
         <h2 class="visually-hidden">SPDT</h2>
             <ul class="section-list">
@@ -103,7 +108,7 @@
 <!-- #endregion second-section -->
 
 <!-- #region third-section -->
-<section class="section third-section">
+<section class="section third-section hidden">
     <div class="container">
         <h2 class="text">Our Team</h2>
         <ul class="section-list">
@@ -281,7 +286,7 @@
 <!-- #endregion third-section -->
 
 <!-- #region fourth-section -->
-<section class="section fourth-section">
+<section class="section fourth-section hidden">
     <div class="container">
         <h2 class="text">Our Portfolio</h2>
         <ul class="section-list fourth-section-list">
@@ -394,7 +399,7 @@
 </main>
 
 <!-- #region footer -->
-<footer class="page-footer">
+<footer class="page-footer hidden">
     <div class="container footer-container">
        <div class="footer-logo-container">
             <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span>
@@ -454,7 +459,7 @@
 <!-- #endregion footer -->
 
 <!-- #region modal -->
-  <div class="modal-overlay-container" data-modal>
+  <div class="modal-overlay-container hidden" data-modal>
     <div class="modal-container">
         <button class="modal-close-button" type="button" data-modal-close>
             <svg class="modal-close-button-svg" width="8" height="8">
