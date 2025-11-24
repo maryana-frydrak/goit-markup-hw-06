@@ -464,7 +464,7 @@
 </main>
 
 <!-- #region footer -->
-<footer class="page-footer">
+<footer class="page-footer hidden">
     <div class="container footer-container">
        <div class="footer-logo-container">
             <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span>
@@ -524,7 +524,7 @@
 <!-- #endregion footer -->
 
 <!-- #region modal -->
-  <div class="modal-overlay-container hidden" data-modal>
+  <div class="modal-overlay-container is-open" data-modal>
     <div class="modal-container">
         <button class="modal-close-button" type="button" data-modal-close>
             <svg class="modal-close-button-svg" width="8" height="8">
@@ -569,15 +569,17 @@
             <div class="modal-form-checkbox-container">
                 <input class="modal-checkbox-input visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy" />
                 <label class="modal-checkbox-label" for="user-privacy">
-                    <span class="checkbox-svg">
+                    <span class="span-checkbox-svg">
                         <svg class="checkbox-svg-icon" width="10" height="8">
                           <use href="./images/icons.svg#icon-check"></use>
                         </svg>
                     </span>
-                    I accept the terms and conditions of the
-                    <a href="#" class="policy-link">
-                    Privacy Policy
-                    </a>
+                    <span class="span-checkbox-text-link">
+                        I accept the terms and conditions of the
+                        <a href="#" class="policy-link">
+                        Privacy Policy
+                        </a>
+                    </span>
                 </label>
             </div>
             <button type="button" class="modal-form-button">Send</button>
