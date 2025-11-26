@@ -377,6 +377,12 @@ button {
     max-width: 320px;
 }
 
+@media screen and (min-resolution: 192dpi) {
+    .first-section {
+        background-image: url(../images/people-office1-@2x.jpg);
+    }
+}
+
 .main-text {
     margin: 0 auto;
     margin-bottom: 72px;
@@ -498,8 +504,6 @@ button {
     .second-section-container {
         border: 1px solid #8e8f99;
         border-radius: 4px;
-        width: 264px;
-        height: 112px;
         background-color: #f4f4fd;
         display: flex;
         align-items: center;
