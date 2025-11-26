@@ -551,6 +551,10 @@ button {
     background-color: #FFFFFF;
 }
 
+.img-third-section {
+    margin: 0 auto;
+}
+
 .third-section-container {
     padding: 32px 0;
 }
