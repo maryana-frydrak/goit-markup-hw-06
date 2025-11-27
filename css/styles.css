@@ -549,14 +549,12 @@ button {
 }
 
 .third-section-item {
+    max-width: 264px;
+
     border-radius: 0px 0px 4px 4px;
 
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
     background-color: #FFFFFF;
-}
-
-.img-third-section {
-    margin: 0 auto;
 }
 
 .third-section-container {
@@ -609,6 +607,12 @@ button {
 
 .svg-third-section {
     fill: #f4f4fd;
+}
+
+@media screen and (min-width: 768px) {
+    .list-our-team {
+        padding: 0 108px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
