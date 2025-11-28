@@ -462,6 +462,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
     gap: 72px;
 }
 
@@ -633,7 +634,6 @@ button {
     .section-list {
         flex-wrap: nowrap;
         flex-direction: unset;
-        justify-content: center;
     }
 
     .third-section-item {
