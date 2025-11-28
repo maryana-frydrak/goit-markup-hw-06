@@ -85,10 +85,9 @@ button {
     }
 }
 
-@media screen and (min-width: 1158) {
+@media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
-        padding: 0 15px;
     }
 }
 
@@ -371,7 +370,6 @@ button {
         linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(../images/people-office.jpg);
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -380,13 +378,17 @@ button {
 
 @media screen and (min-resolution: 192dpi) {
     .first-section {
-        background-image: url(../images/people-office1-@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office@2x.jpg);
     }
 }
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
     .first-section {
-        background-image: url(../images/people-office1-@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office@2x.jpg);
     }
 }
 
@@ -594,6 +596,10 @@ button {
     gap: 24px;
 }
 
+.list-our-team {
+    padding: 0 28px;
+}
+
 .third-section-socials-item {
     width: 40px;
     height: 40px;
@@ -623,6 +629,20 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+
+    .section-list {
+        flex-wrap: nowrap;
+        flex-direction: unset;
+        justify-content: center;
+    }
+
+    .third-section-item {
+        min-width: 264px;
+    }
+
+    .list-our-team {
+        padding: 0 144px;
+    }
 
     .third-section-socials-link:hover,
     .third-section-socials-link:focus {
@@ -905,10 +925,16 @@ button {
     }
 
     .footer-container {
+        flex-wrap: nowrap;
+        flex-direction: unset;
+        row-gap: unset;
+        column-gap: 0;
+        padding: 0 15px;
+    }
 
-        row-gap: 0px;
-        column-gap: 0px;
-        padding-left: 15px;
+    .footer-socials-container {
+        padding-left: 120px;
+        padding-right: 80px;
     }
 
     .footer-form-input:hover {
