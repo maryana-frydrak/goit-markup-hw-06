@@ -597,10 +597,6 @@ button {
     gap: 24px;
 }
 
-.list-our-team {
-    padding: 0 28px;
-}
-
 .third-section-socials-item {
     width: 40px;
     height: 40px;
@@ -623,12 +619,6 @@ button {
     fill: #f4f4fd;
 }
 
-@media screen and (min-width: 768px) {
-    .list-our-team {
-        padding: 0 108px;
-    }
-}
-
 @media screen and (min-width: 1158px) {
 
     .section-list {
@@ -638,10 +628,6 @@ button {
 
     .third-section-item {
         min-width: 264px;
-    }
-
-    .list-our-team {
-        padding: 0 144px;
     }
 
     .third-section-socials-link:hover,
