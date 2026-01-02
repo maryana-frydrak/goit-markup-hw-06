@@ -369,7 +369,7 @@ button {
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
+        url(../images/people-office-mobile.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -380,15 +380,8 @@ button {
     .first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/people-office@2x.jpg);
-    }
-}
+            url(../images/people-office-mobile@2x.jpg);
 
-@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
-    .first-section {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/people-office@2x.jpg);
     }
 }
 
@@ -425,6 +418,10 @@ button {
     .first-section {
         padding: 112px 0;
         max-width: 768px;
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-tablet.jpg);
     }
 
     .main-text {
@@ -440,14 +437,36 @@ button {
     }
 }
 
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-tablet@2x.jpg);
+
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .first-section {
         padding: 188px 0;
         max-width: 1440px;
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-desktop.jpg);
     }
 
     .main-text {
         margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-desktop@2x.jpg);
+
     }
 }
 
